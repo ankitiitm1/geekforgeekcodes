@@ -42,8 +42,6 @@ class Solution
     static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
     {
         // Your code here
-        
-       
         ArrayList<Integer> arr1=new ArrayList();
          if(s==0){
             arr1.add(-1);
@@ -72,7 +70,6 @@ class Solution
         }
         arr1.add(-1);
         return arr1;
-        
         
     }
 }
